@@ -26,6 +26,7 @@ core:
       dark_mode_label: מצב חשוך
       edit_css_button: עריכת CSS
       edit_header_button: עריכת חלק עליון
+      edit_footer_button: => core.ref.custom_footer_title
       enter_hex_message: הכנס בבקשה צבע הקסדצימלי.
       favicon_heading: Favicon
       favicon_text: העלה תמונה שתשמש כלוגו קיצור הדרך של הפורום.
@@ -50,6 +51,8 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
+      tools_button: כלים 
+      clear_cache_button: נקה מטמון
       beta_warning_text: "<strong>תוכנת הביטא</strong> הזו ניתנת בכדי שתוכלו לעזור לנו לבחון אותה ולשפר אותה. התוכנה כרגע בגרסה נסיונית ולא מלאה." #"This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
       contributing_text: "מעוניינים לחפש תקלות ולתרום? קראו את <a>מסמכי התרומה</a>." #"Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
       extension_text: "מעוניינים בפיתוח הרחבות? קרא את <a>מסמכי ההרחבות</a>." #"Interested in developing extensions? Read the <a>Extension docs</a>."
@@ -88,9 +91,10 @@ core:
     email:
       account_heading: חשבון SMTP
       addresses_heading: Addresses
-      driver_label: Driver
-      encryption_label: Encryption
-      from_label: Sender
+      driver_heading: בחר שרת
+      driver_label: שרת
+      encryption_label: קידוד
+      from_label: שולח
       heading: => core.ref.email
       host_label: Host
       password_label: => core.ref.password
@@ -381,6 +385,7 @@ core:
       discussions_link: => core.ref.discussions
       in_discussion_text: "ב{discussion}"
       joined_date_text: "הצטרפו לפני {ago}"
+      posts_empty_text: נראה שכרגע אין פוסטים
       online_text: מחובר
       posts_load_more_button: => core.ref.load_more
       posts_link: הודעות
