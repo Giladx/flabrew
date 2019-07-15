@@ -73,8 +73,8 @@ core:
       icon_label: אייקון
       icon_text: "רשמו כל שם של אייקון <a>FontAwesome</a>, ללא הקידומת <code>fa-</code>." #"Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
       name_label: שם
-      plural_placeholder: רבים (לדוגמא: מנהלים)
-      singular_placeholder: יחיד (לדוגמא: מנהל)
+      plural_placeholder: "רבים (לדוגמא: מנהלים)"
+      singular_placeholder: "יחיד (לדוגמא: מנהל)"
       submit_button: => core.ref.save_changes
       title: יצירת קבוצה
 

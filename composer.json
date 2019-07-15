@@ -1,12 +1,12 @@
 {
-    "name": "flabrew/flabrew",
+    "name": "custom-local/translate",
     "type": "flarum-extension",
     "description": "תרגום רשמי לעברית.",
     "homepage": "https://github.com/itayganor/flabrew",
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
-        "flarum/core": "^0.1.0-beta.7"
+        "flarum/core": "^0.1.0-beta.9"
     },
 
     "extra": {
